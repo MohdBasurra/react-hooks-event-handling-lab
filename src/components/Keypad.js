@@ -1,8 +1,13 @@
 // Code Keypad Component Here
-
+ 
 function Keypad (){
+    const consolelog = ()=>{console.log("Entering password...")}
     return (
-        <div></div>
+        <div>
+           {/* //input */}
+           
+           <input onChange={consolelog} type="password" />
+        </div>
     )
 }
 
